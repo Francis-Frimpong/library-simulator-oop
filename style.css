@@ -1,0 +1,44 @@
+.library-app {
+  width: 400px;
+  margin: 50px auto;
+  font-family: Arial;
+  background: #f0f8ff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.library-app input,
+.library-app button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+#bookList {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.book-card {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.book-card p {
+  margin: 5px 0;
+}
+
+.book-card button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
