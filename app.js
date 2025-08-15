@@ -73,11 +73,10 @@ const bookAuthor = document.getElementById("bookAuthor");
 const addBookBtn = document.getElementById("addBookBtn");
 const containerElement = document.getElementById("bookList");
 
-let book;
 const library = new Library(containerElement);
 
 addBookBtn.addEventListener("click", () => {
-  book = new Book(bookTitle.value, bookAuthor.value);
+  const book = new Book(bookTitle.value, bookAuthor.value);
   library.addBook(book);
   bookTitle.value = "";
   bookAuthor.value = "";
